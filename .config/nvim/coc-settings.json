@@ -1,5 +1,6 @@
 {
     "python.linting.enabled": false,
+    "python.jediEnabled": false,
     "languageserver": {
         "bash": {
           "command": "bash-language-server",
