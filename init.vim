@@ -1,6 +1,0 @@
-set runtimepath^=~/.vim runtimepath+=~/.vim/after                                                                                                                                                                                             
-let &packpath = &runtimepath                                                                                                                                                                                                                  
-source ~/.vimrc                                                                                                                                                                                                                               
-                                                                                                                                                                                                                                              
-" Leave terminal mode to normal mode (nvim)                                                                                                                                                                                                   
-tnoremap <Leader>t <C-\><C-n> 
