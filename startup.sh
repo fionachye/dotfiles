@@ -14,9 +14,11 @@ sudo mv nvim /usr/local/bin/
 cd ~/
 
 # Install nodejs and npm
-# Update according to this page: https://github.com/nodesource/distributions#debinstall
-# Install latest nodejs
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+# Versions according to this page: https://github.com/nodesource/distributions#debinstall
+#
+# Install latest nodejs LTS version
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -  # For Ubuntu/Debian
+curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -  # For CentOS
 sudo apt-get install -y nodejs
 
 # Install npm packages
