@@ -90,13 +90,13 @@ set smartcase
 " | Appearance |
 " ==============
 " Colorscheme
-colorscheme PaperColor
+colorscheme solarized8_high
 set bg=dark
 
 " ==========
 " | Macros |
 " ==========
-let @p = 'Iimport pdb; pdb.set_trace()'
+let @p = "Iimport pdb; pdb.set_trace()^"
 
 "===========
 "| Keymaps |
