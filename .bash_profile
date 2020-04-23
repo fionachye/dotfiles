@@ -7,3 +7,5 @@ fi
 
 # User specific environment and startup programs
 export PS1="\e[1;34m[\d \T \u@\h:\e[m \e[1;32m\w]\e[m\$ "
+
+alias gl="git log --graph --abbrev-commit --pretty=oneline --decorate"
