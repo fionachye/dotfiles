@@ -1,1 +1,1 @@
-cp -r .vim/ .vimrc .config/ ~/
+cp -r .vim/ .vimrc .config/ .tmux.conf ~/
