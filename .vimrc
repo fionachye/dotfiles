@@ -122,6 +122,9 @@ nnoremap <C-p>. :FZF<Space>.<CR>
 nnoremap <C-Left> :bprev<CR>
 nnoremap <C-Right> :bnext<CR>
 
+" Delete buffer without losing split
+nnoremap <silent> <Leader>w :bp \| :bd #<CR>
+
 " Termninal to normal mode
 tnoremap jk <C-w><S-n>  " For vim
 if has("nvim")
