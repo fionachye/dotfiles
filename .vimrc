@@ -125,6 +125,9 @@ nnoremap <C-Right> :bnext<CR>
 " Delete buffer without losing split
 nnoremap <silent> <Leader>w :bp \| :bd #<CR>
 
+" Refresh buffer
+nnoremap <silent> <Leader>r :execute ":bufdo e!" \| syntax on<CR>
+
 " Termninal to normal mode
 tnoremap jk <C-w><S-n>  " For vim
 if has("nvim")
