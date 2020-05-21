@@ -30,7 +30,19 @@
         <item label="Clip"> <action name="Execute">
                 <execute>gnome-screenshot -a -c</execute>
         </action> </item>
-        <menu id="5" label="Network">
+        <menu id="3" label="Games">
+            <item label="Lutris"> <action name="Execute">
+                <execute>lutris</execute>
+            </action> </item>
+            <item label="Steam"> <action name="Execute">
+                <execute>steam</execute>
+            </action> </item>
+            <item label="Obs Studio"> <action name="Execute">
+                <execute>obs</execute>
+            </action> </item>
+        </menu>
+        
+        <menu id="4" label="Network">
             <item label="Avahi SSH Server Browser"> <action name="Execute">
                 <execute>bssh</execute>
             </action> </item>
