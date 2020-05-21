@@ -7,6 +7,7 @@ base-devel ttf-dejavu ttf-liberation alsa-utils
 sudo systemctl enable lightdm.service
 
 # Generate config and start sound service
+# TODO: Install alsa-tray from AUR to enable volume icon
 alsactl store
 sudo systemctl enable alsa-restore.service
 sudo systemctl start alsa-restore.service
