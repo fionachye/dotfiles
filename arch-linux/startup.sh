@@ -4,6 +4,11 @@ sudo pacman -S sudo xorg-server lightdm lightdm-gtk-greeter openbox obconf pcman
 xterm termite gnome-terminal tmux vim gnome-backgrounds menumaker python python2 fuse2 nodejs npm \
 base-devel ttf-dejavu ttf-liberation alsa-utils
 
+# Install East Asian fonts
+# Enable in /etc/locale.gen, then run locale-gen
+sudo pacman -S adobe-source-han-sans-jp-fonts adobe-source-han-sans-cn-fonts \
+adobe-source-han-sans-tw-fonts adobe-source-han-sans-kr-fonts notification-daemon
+
 sudo systemctl enable lightdm.service
 
 # Generate config and start sound service
