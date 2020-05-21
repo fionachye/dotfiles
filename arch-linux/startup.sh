@@ -7,7 +7,11 @@ base-devel ttf-dejavu ttf-liberation alsa-utils
 # Install East Asian fonts
 # Enable in /etc/locale.gen, then run locale-gen
 sudo pacman -S adobe-source-han-sans-jp-fonts adobe-source-han-sans-cn-fonts \
-adobe-source-han-sans-tw-fonts adobe-source-han-sans-kr-fonts notification-daemon
+adobe-source-han-sans-tw-fonts adobe-source-han-sans-kr-fonts
+
+# Install notification
+# Enable it by creating a file according to https://wiki.archlinux.org/index.php/Desktop_notifications#Notification_servers
+sudo pacman -S notification-daemon
 
 sudo systemctl enable lightdm.service
 
