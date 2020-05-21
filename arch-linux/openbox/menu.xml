@@ -16,8 +16,20 @@
             </action> </item>
         </menu>
         <item label="File Manager"> <action name="Execute">
-                <execute>pcmanfm</execute>
+                <execute>thunar</execute>
             </action> </item>
+        <item label="Spotify"> <action name="Execute">
+                <execute>spotify</execute>
+        </action> </item>
+        <item label="One Note"> <action name="Execute">
+                <execute>p3x-onenote</execute>
+        </action> </item>
+        <item label="Discord"> <action name="Execute">
+                <execute>discord</execute>
+        </action> </item>
+        <item label="Clip"> <action name="Execute">
+                <execute>gnome-screenshot -a -c</execute>
+        </action> </item>
         <menu id="5" label="Network">
             <item label="Avahi SSH Server Browser"> <action name="Execute">
                 <execute>bssh</execute>
