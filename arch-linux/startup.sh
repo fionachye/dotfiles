@@ -62,7 +62,7 @@ sudo pacman -S \
     `# Nvidia drivers (Uncomment multilib in /etc/pacman.conf)` \
     lib32-nvidia-utils \
     nvidia-utils \
-    `# Enable multiple monitors` \
+    `# GUI interface to configure multiple monitors, generates /etc/X11/xorg.conf to force resolution` \
     nvidia-settings \
     `# Nvida drivers` \
     nvidia \
