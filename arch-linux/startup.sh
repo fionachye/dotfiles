@@ -5,7 +5,7 @@ sudo pacman -S \
     `# Documentation` \
     man-db \
     man-pages \
-    tex-info \
+    texinfo \
     `# GUI and inputs` \
     xorg-server \
     xorg-xinput  `# For querying and setting mouse sensitivities` \
@@ -59,7 +59,7 @@ sudo pacman -S \
     notification-daemon \
     `# Package Manager` \
     flatpak \
-    `# Nvidia drivers` \
+    `# Nvidia drivers (Uncomment multilib in /etc/pacman.conf)` \
     lib32-nvidia-utils \
     nvidia-utils \
     `# Games and Media` \
