@@ -2,7 +2,7 @@
 sudo pacman -Syu
 sudo pacman -S sudo xorg-server lightdm lightdm-gtk-greeter openbox obconf pcmanfm tint2 nitrogen \
 xterm termite gnome-terminal tmux vim gnome-backgrounds menumaker python python2 fuse2 nodejs npm \
-base-devel ttf-dejavu ttf-liberation alsa-utils
+base-devel ttf-dejavu ttf-liberation alsa-utils thunar
 
 # Install East Asian fonts
 # Enable in /etc/locale.gen, then run locale-gen
