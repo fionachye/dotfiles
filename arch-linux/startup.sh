@@ -62,6 +62,10 @@ sudo pacman -S \
     `# Nvidia drivers (Uncomment multilib in /etc/pacman.conf)` \
     lib32-nvidia-utils \
     nvidia-utils \
+    `# Enable multiple monitors` \
+    nvidia-settings \
+    `# Nvida drivers` \
+    nvidia \
     `# Games and Media` \
     lutris \
     obs-studio \
