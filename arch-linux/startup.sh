@@ -1,18 +1,73 @@
-# Install sudo first
 sudo pacman -Syu
-sudo pacman -S sudo xorg-server lightdm lightdm-gtk-greeter openbox obconf pcmanfm tint2 nitrogen \
-xterm termite gnome-terminal tmux vim gnome-backgrounds menumaker python python2 fuse2 nodejs npm \
-base-devel ttf-dejavu ttf-liberation alsa-utils thunar
 
-# Install East Asian fonts
-# Enable in /etc/locale.gen, then run locale-gen
-sudo pacman -S adobe-source-han-sans-jp-fonts adobe-source-han-sans-cn-fonts \
-adobe-source-han-sans-tw-fonts adobe-source-han-sans-kr-fonts
+sudo pacman -S \
+    sudo \
+    `# Documentation` \
+    man-db \
+    man-pages \
+    tex-info \
+    `# GUI and inputs` \
+    xorg-server \
+    xorg-xinput  `# For querying and setting mouse sensitivities` \
+                 `# See https://wiki.archlinux.org/index.php/Mouse_acceleration#Disabling_mouse_acceleration` \
+    xorg-xrandr  `# Monitor config CLI` \
+    arandr  `# GUI version for xrandr`  \
+    xorg-xset \
+    lightdm \
+    lightdm-gtk-greeter \
+    `# Window Manager and Desktop Display` \
+    gnome-backgrounds \
+    menumaker \
+    openbox \
+    obconf \
+    tint2 \
+    nitrogen \
+    gnome-screenshot \
+    `# Terminals` \
+    xterm \
+    termite \
+    gnome-terminal \
+    `# Coding` \
+    tmux \
+    vim \
+    python \
+    python2 \
+    tree \
+    `# For compiling Neovim and autocompletion` \
+    fuse2 \
+    nodejs \
+    npm \
+    base-devel `# Required for building AUR packages` \
+    `# Fonts` \
+    ttf-dejavu \
+    ttf-liberation \
+    `# East Asian Fonts` \
+    `# Enable in /etc/locale.gen, then run locale-gen` \
+    adobe-source-han-sans-jp-fonts \
+    adobe-source-han-sans-cn-fonts \
+    adobe-source-han-sans-tw-fonts \
+    adobe-source-han-sans-kr-fonts \
+    `# Audio` \
+    alsa-utils  `# Audio control interface` \
+    pulseaudio `# Make audio also work with OBS Studio` \
+    pavucontrol  `# Audio control GUI` \
+    `# File Manager` \
+    thunar \
+    pcmanfm \
+    `# Notifications` \
+    `# Enable it by creating a file according to https://wiki.archlinux.org/index.php/Desktop_notifications#Notification_servers` \
+    notification-daemon \
+    `# Package Manager` \
+    flatpak \
+    `# Nvidia drivers` \
+    lib32-nvidia-utils \
+    nvidia-utils \
+    `# Games and Media` \
+    lutris \
+    obs-studio \
 
-# Install notification
-# Enable it by creating a file according to https://wiki.archlinux.org/index.php/Desktop_notifications#Notification_servers
-sudo pacman -S notification-daemon
 
+# Avoid blank screen after restart
 sudo systemctl enable lightdm.service
 
 # Generate config and start sound service

@@ -28,8 +28,11 @@
                 <execute>discord</execute>
         </action> </item>
         <item label="Clip"> <action name="Execute">
-                <execute>gnome-screenshot -a -c</execute>
+                <execute>gnome-screenshot --interactive</execute>
         </action> </item>
+        <item label="Obs Studio"> <action name="Execute">
+                <execute>obs</execute>
+            </action> </item>
         <menu id="3" label="Games">
             <item label="Lutris"> <action name="Execute">
                 <execute>lutris</execute>
