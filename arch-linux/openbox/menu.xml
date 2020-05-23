@@ -14,6 +14,9 @@
             <item label="NeoVim"> <action name="Execute">
                 <execute>gnome-terminal -e nvim</execute>
             </action> </item>
+            <item label="Onivim"> <action name="Execute">
+                <execute>oni</execute>
+            </action> </item>
         </menu>
         <item label="File Manager"> <action name="Execute">
                 <execute>thunar</execute>
@@ -69,10 +72,13 @@
         </menu>
         <menu id="37" label="System">
             <menu id="36" label="Settings">
+                <item label="Nvidia Settings"> <action name="Execute">
+                    <execute>nvidia-settings</execute>
+                </action> </item>
                 <item label="Desktop Preferences"> <action name="Execute">
                     <execute>pcmanfm --desktop-pref</execute>
                 </action> </item>
-                <item label="nitrogen"> <action name="Execute">
+                <item label="Nitrogen"> <action name="Execute">
                     <execute>nitrogen</execute>
                 </action> </item>
                 <item label="Openbox Configuration Manager"> <action name="Execute">
