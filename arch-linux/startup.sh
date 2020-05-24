@@ -57,6 +57,8 @@ sudo pacman -S \
     `# Notifications` \
     `# Enable it by creating a file according to https://wiki.archlinux.org/index.php/Desktop_notifications#Notification_servers` \
     notification-daemon \
+    `# Crontab needed by timeshift` \
+    cronie \
     `# Package Manager` \
     flatpak \
     `# Nvidia drivers (Uncomment multilib in /etc/pacman.conf)` \
@@ -68,7 +70,6 @@ sudo pacman -S \
     nvidia \
     `# Games and Media` \
     lutris \
-    obs-studio \
 
 
 # Avoid blank screen after restart
