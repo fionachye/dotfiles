@@ -77,6 +77,13 @@
 			</item>
 		</menu>
 		<separator/>
+		<menu id="root-menu-57826" label="System Inspect">
+			<item label="Bus Viewer">
+				<action name="Execute">
+					<execute>qdbusviewer</execute>
+				</action>
+			</item>
+		</menu>
 		<menu id="4" label="Network">
 			<item label="Avahi SSH Server Browser">
 				<action name="Execute">
@@ -141,6 +148,11 @@
 			</item>
 		</menu>
 		<menu id="40" label="OpenBox">
+			<item label="Ob Menu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
 			<item label="Config">
 				<action name="Execute">
 					<execute>obconf</execute>

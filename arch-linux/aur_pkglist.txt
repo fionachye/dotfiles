@@ -1,0 +1,8 @@
+cef-minimal-3770
+google-chrome
+obmenu
+obs-studio-git
+p3x-onenote
+pygtk
+spotify
+timeshift
