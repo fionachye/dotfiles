@@ -25,6 +25,7 @@ gnome-backgrounds
 gnome-screenshot
 gnome-terminal
 grub
+grub-customizer
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
