@@ -54,6 +54,7 @@ lightdm
 lightdm-gtk-greeter
 linux
 linux-firmware
+linux-lts
 luajit
 lutris
 m4
@@ -69,12 +70,14 @@ nodejs
 notification-daemon
 npm
 nvidia
+nvidia-dkms
 nvidia-settings
 nvidia-utils
 obconf
 ocl-icd
 openal
 openbox
+pacutils
 patch
 pavucontrol
 pcmanfm
