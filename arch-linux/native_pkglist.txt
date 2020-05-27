@@ -9,6 +9,7 @@ automake
 base
 binutils
 bison
+bleachbit
 cmake
 cronie
 discord
@@ -58,6 +59,7 @@ linux-firmware
 linux-lts
 luajit
 lutris
+lxqt-policykit
 m4
 make
 man-db
@@ -91,10 +93,12 @@ python2
 python2-pip
 qt5-tools
 read-edid
+redis
 ripgrep
 steam
 sudo
 swig
+tcl
 termite
 texinfo
 the_silver_searcher
@@ -107,6 +111,7 @@ ttf-dejavu
 ttf-liberation
 vim
 vlc
+wget
 which
 wine-staging
 xclip
