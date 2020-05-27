@@ -1,2 +1,3 @@
 tint2 &
 nitrogen --restore &
+/usr/bin/lxqt-policykit-agent & 

@@ -70,29 +70,27 @@
 					<execute>steam</execute>
 				</action>
 			</item>
-			<item label="Obs Studio">
-				<action name="Execute">
-					<execute>obs</execute>
-				</action>
-			</item>
 		</menu>
 		<separator/>
-		<menu id="root-menu-57826" label="System Inspect">
+		<menu id="root-menu-57826" label="Maintenance">
+			<item label="Grub Customizer">
+				<action name="Execute">
+					<execute>grub-customizer</execute>
+				</action>
+			</item>
+			<item label="Timeshift">
+				<action name="Execute">
+					<execute>timeshift-launcher</execute>
+				</action>
+			</item>
+			<item label="Bleachbit">
+				<action name="Execute">
+					<execute>bleachbit</execute>
+				</action>
+			</item>
 			<item label="Bus Viewer">
 				<action name="Execute">
 					<execute>qdbusviewer</execute>
-				</action>
-			</item>
-		</menu>
-		<menu id="4" label="Network">
-			<item label="Avahi SSH Server Browser">
-				<action name="Execute">
-					<execute>bssh</execute>
-				</action>
-			</item>
-			<item label="Avahi VNC Server Browser">
-				<action name="Execute">
-					<execute>bvnc</execute>
 				</action>
 			</item>
 		</menu>
@@ -119,7 +117,7 @@
 			</item>
 		</menu>
 		<menu id="36" label="Settings">
-			<menu id="36-345434" label="Desktop Environment">
+			<menu id="36-345434" label="Desktop ">
 				<item label="Background">
 					<action name="Execute">
 						<execute>nitrogen</execute>
