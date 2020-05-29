@@ -16,6 +16,7 @@ discord
 efibootmgr
 fakeroot
 fd
+firefox
 flatpak
 flex
 fuse2
@@ -85,6 +86,7 @@ patch
 pavucontrol
 pcmanfm
 pkgconf
+powerline-fonts
 pulseaudio
 python
 python-pip
@@ -92,6 +94,7 @@ python-pynvim
 python2
 python2-pip
 qt5-tools
+rabbitmq
 read-edid
 redis
 ripgrep
@@ -111,6 +114,7 @@ ttf-dejavu
 ttf-liberation
 vim
 vlc
+volumeicon
 wget
 which
 wine-staging

@@ -124,8 +124,8 @@
     <firstdesk>1</firstdesk>
     <names>
       <name>Main</name>
-      <name>Games</name>
       <name>Code</name>
+      <name>Games</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
