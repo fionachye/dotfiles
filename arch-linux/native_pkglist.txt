@@ -28,6 +28,7 @@ gnome-screenshot
 gnome-terminal
 grub
 grub-customizer
+krita
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
@@ -119,6 +120,7 @@ wget
 which
 wine-staging
 xclip
+xf86-input-wacom
 xorg-server
 xorg-xinput
 xorg-xrandr
