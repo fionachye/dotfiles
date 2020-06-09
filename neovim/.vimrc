@@ -85,6 +85,7 @@ set scrolloff=2
 set hlsearch
 set incsearch
 set smartcase
+set cursorline
 
 " ==============
 " | Appearance |
