@@ -61,6 +61,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 " See https://github.com/neoclide/coc.nvim/wiki/Using-the-configuration-file#configuration-file-resolve
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Vim Wiki
+Plug 'vimwiki/vimwiki'
+
 call plug#end()
 
 " ====================
@@ -91,7 +94,7 @@ set cursorline
 " | Appearance |
 " ==============
 " Colorscheme
-colorscheme solarized8_high
+colorscheme gruvbox
 set bg=dark
 
 " ==========
@@ -129,7 +132,7 @@ nnoremap <silent> <Leader>w :bp \| :bd #<CR>
 " Refresh buffer
 nnoremap <silent> <Leader>r :execute ":bufdo e!" \| syntax on<CR>
 
-" Termninal to normal mode
+" Terminal to normal mode
 tnoremap jk <C-w><S-n>  " For vim
 if has("nvim")
     tnoremap jk <C-\><C-n>  " For nvim
