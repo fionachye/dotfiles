@@ -92,6 +92,7 @@ patch
 pavucontrol
 pcmanfm
 pkgconf
+powerline
 powerline-fonts
 pulseaudio
 python
