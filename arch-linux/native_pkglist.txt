@@ -28,6 +28,7 @@ gnome-screenshot
 gnome-terminal
 grub
 grub-customizer
+gvfs
 i3-wm
 krita
 lib32-alsa-lib
@@ -76,6 +77,7 @@ nitrogen
 nodejs
 notification-daemon
 npm
+numlockx
 nvidia
 nvidia-dkms
 nvidia-settings
@@ -113,6 +115,7 @@ thunar
 thunderbird
 tint2
 tmux
+trash-cli
 tree
 ttf-dejavu
 ttf-liberation
