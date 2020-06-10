@@ -1,7 +1,7 @@
-cef-minimal-3770
+gconf
 google-chrome
 obmenu
-obs-studio-git
+obs-linuxbrowser-bin
 p3x-onenote
 pygtk
 spotify

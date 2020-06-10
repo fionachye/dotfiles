@@ -28,6 +28,7 @@ gnome-screenshot
 gnome-terminal
 grub
 grub-customizer
+i3-wm
 krita
 lib32-alsa-lib
 lib32-alsa-plugins
@@ -68,6 +69,7 @@ man-db
 man-pages
 menumaker
 mpg123
+neofetch
 neovim
 networkmanager
 nitrogen
@@ -79,6 +81,7 @@ nvidia-dkms
 nvidia-settings
 nvidia-utils
 obconf
+obs-studio
 ocl-icd
 openal
 openbox
@@ -113,6 +116,8 @@ tmux
 tree
 ttf-dejavu
 ttf-liberation
+tumbler
+vifm
 vim
 vlc
 volumeicon
