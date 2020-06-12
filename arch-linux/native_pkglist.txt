@@ -116,7 +116,6 @@ thunar
 thunderbird
 tint2
 tmux
-trash-cli
 tree
 ttf-dejavu
 ttf-liberation
