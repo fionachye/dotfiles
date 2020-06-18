@@ -2,4 +2,5 @@ tint2 &
 /usr/bin/lxqt-policykit-agent & 
 volumeicon &
 pcmanfm --desktop &
+nm-applet &
 numlockx &

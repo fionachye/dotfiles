@@ -100,6 +100,11 @@
 					<execute>gnome-terminal</execute>
 				</action>
 			</item>
+			<item label="Alacritty">
+				<action name="Execute">
+					<execute>alacritty</execute>
+				</action>
+			</item>
 			<item label="Termite">
 				<action name="Execute">
 					<execute>termite</execute>
