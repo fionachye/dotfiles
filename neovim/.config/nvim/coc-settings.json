@@ -1,6 +1,8 @@
 {
     "python.linting.enabled": false,
     "python.jediEnabled": false,
+    "lua.enable": true,
+    "lua.commandPath": "/usr/bin/lua",
     "languageserver": {
         "bash": {
           "command": "bash-language-server",

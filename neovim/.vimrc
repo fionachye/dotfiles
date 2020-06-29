@@ -56,6 +56,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 " :CocInstall coc-json
 " :CocInstall coc-tsserver
 " :CocInstall coc-sh
+" :CocInstall coc-lua
 " :CocCommand<CR> then python.setInterpreter, then set python.enableLinting to False
 " :CocConfig or :CocLocalConfig, place settings in JSON
 " See https://github.com/neoclide/coc.nvim/wiki/Using-the-configuration-file#configuration-file-resolve
