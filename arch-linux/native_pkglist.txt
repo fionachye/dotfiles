@@ -16,6 +16,7 @@ cmake
 cronie
 discord
 efibootmgr
+evince
 fakeroot
 fd
 firefox
@@ -24,6 +25,7 @@ flex
 fuse2
 fzf
 gcc
+gimp
 git
 gnome-backgrounds
 gnome-screenshot
@@ -116,6 +118,7 @@ read-edid
 redis
 ripgrep
 steam
+streamlink
 sudo
 swig
 tcl
@@ -123,6 +126,7 @@ termite
 texinfo
 the_silver_searcher
 thunar
+thunar-archive-plugin
 thunderbird
 tint2
 tmux
@@ -137,6 +141,7 @@ volumeicon
 wget
 which
 wine-staging
+xarchiver
 xclip
 xf86-input-wacom
 xorg-server
@@ -145,3 +150,4 @@ xorg-xinput
 xorg-xrandr
 xorg-xset
 xterm
+zip
