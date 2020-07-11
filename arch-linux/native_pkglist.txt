@@ -12,6 +12,7 @@ base
 binutils
 bison
 bleachbit
+catimg
 cmake
 cronie
 discord

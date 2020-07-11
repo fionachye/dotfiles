@@ -1,8 +1,10 @@
 gconf
 google-chrome
+insync
 obmenu
 obs-linuxbrowser-bin
 p3x-onenote
 pygtk
 spotify
 timeshift
+tusk
