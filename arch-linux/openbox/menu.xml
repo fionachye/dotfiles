@@ -39,6 +39,11 @@
 				<execute>spotify</execute>
 			</action>
 		</item>
+		<item label="Xournal">
+			<action name="Execute">
+				<execute>xournalpp</execute>
+			</action>
+		</item>
 		<item label="One Note">
 			<action name="Execute">
 				<execute>p3x-onenote</execute>
@@ -47,6 +52,11 @@
 		<item label="Discord">
 			<action name="Execute">
 				<execute>discord</execute>
+			</action>
+		</item>
+		<item label="Peek">
+			<action name="Execute">
+				<execute>peek</execute>
 			</action>
 		</item>
 		<item label="Clip">
@@ -63,6 +73,11 @@
 			<item label="Lutris">
 				<action name="Execute">
 					<execute>lutris</execute>
+				</action>
+			</item>
+			<item label="Play on Linux">
+				<action name="Execute">
+					<execute>playonlinux</execute>
 				</action>
 			</item>
 			<item label="Steam">
@@ -167,6 +182,11 @@
 			</item>
 		</menu>
 		<separator/>
+		<item label="Lock">
+			<action name="Execute">
+				<execute>dm-tool lock</execute>
+			</action>
+		</item>
 		<item label="Logout">
 			<action name="Exit"/>
 		</item>

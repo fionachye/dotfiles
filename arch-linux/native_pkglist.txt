@@ -17,6 +17,7 @@ cmake
 cronie
 discord
 efibootmgr
+eog
 evince
 fakeroot
 fd
@@ -34,9 +35,8 @@ gnome-terminal
 grub
 grub-customizer
 gvfs
+htop
 i3-wm
-inkscape
-krita
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
@@ -104,7 +104,9 @@ pacutils
 patch
 pavucontrol
 pcmanfm
+peek
 pkgconf
+playonlinux
 powerline
 powerline-fonts
 pulseaudio
@@ -141,6 +143,7 @@ vlc
 volumeicon
 wget
 which
+wine-mono
 wine-staging
 xarchiver
 xclip
@@ -150,5 +153,6 @@ xorg-server-xephyr
 xorg-xinput
 xorg-xrandr
 xorg-xset
+xournalpp
 xterm
 zip
