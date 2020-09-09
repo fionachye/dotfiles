@@ -37,6 +37,7 @@ grub-customizer
 gvfs
 htop
 i3-wm
+iftop
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
@@ -117,6 +118,7 @@ python2
 python2-pip
 qt5-tools
 rabbitmq
+rclone
 read-edid
 redis
 ripgrep
@@ -145,6 +147,7 @@ wget
 which
 wine-mono
 wine-staging
+wireshark-qt
 xarchiver
 xclip
 xf86-input-wacom

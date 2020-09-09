@@ -25,6 +25,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'rakr/vim-one'
 Plug 'arzg/vim-colors-xcode'
 Plug 'lifepillar/vim-solarized8'
+Plug 'skbolton/embark'
 
 " Display status
 Plug 'bling/vim-airline'
@@ -75,6 +76,7 @@ set autoindent showmode showmatch smartindent
 set tabstop=4 shiftwidth=4 expandtab softtabstop=4
 syntax on
 set nobackup nowritebackup
+set nowrapscan  " Do not wrap around when search reaches EOF
 set ignorecase
 set number
 set noswapfile
@@ -95,7 +97,7 @@ set cursorline
 " | Appearance |
 " ==============
 " Colorscheme
-colorscheme gruvbox
+colorscheme embark
 set bg=dark
 
 " ==========
@@ -120,7 +122,7 @@ inoremap <C-Space> <C-n>
 inoremap <C-n> <Nop>
 
 " For fuzzy search
-nnoremap <C-p> :FZF<Space>/opt/ff/<CR>
+nnoremap <C-p> :FZF<Space>/home/fiona/python/<CR>
 nnoremap <C-p>. :FZF<Space>.<CR>
 
 " For cycling buffers
@@ -156,4 +158,3 @@ let g:airline_theme='molokai'
 " Coc Intellisense
 nmap gd <Plug>(coc-definition)
 nmap gr <Plug>(coc-references)
-

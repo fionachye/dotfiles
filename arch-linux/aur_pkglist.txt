@@ -1,6 +1,5 @@
 gconf
 google-chrome
-insync
 obmenu
 obs-linuxbrowser-bin
 p3x-onenote
