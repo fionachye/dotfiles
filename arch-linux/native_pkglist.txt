@@ -78,6 +78,7 @@ man-pages
 menumaker
 mpg123
 mtools
+ncdu
 neofetch
 neovim
 network-manager-applet
