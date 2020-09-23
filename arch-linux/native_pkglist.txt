@@ -5,6 +5,7 @@ adobe-source-han-sans-tw-fonts
 alacritty
 alsa-plugins
 alsa-utils
+audacity
 autoconf
 automake
 awesome
@@ -38,6 +39,8 @@ gvfs
 htop
 i3-wm
 iftop
+jre-openjdk
+jupyterlab
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
@@ -112,6 +115,7 @@ playonlinux
 powerline
 powerline-fonts
 pulseaudio
+pulseaudio-alsa
 python
 python-pip
 python-pynvim
