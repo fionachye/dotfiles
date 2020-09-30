@@ -1,3 +1,4 @@
+autokey
 gconf
 google-chrome
 obmenu
