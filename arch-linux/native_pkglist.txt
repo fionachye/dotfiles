@@ -132,7 +132,6 @@ streamlink
 sudo
 swig
 tcl
-termite
 texinfo
 the_silver_searcher
 thunar
