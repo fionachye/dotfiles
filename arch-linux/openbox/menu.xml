@@ -3,7 +3,7 @@
 	<menu id="root-menu" label="OpenBox 3">
 		<item label="Terminal">
 			<action name="Execute">
-				<execute>gnome-terminal</execute>
+				<execute>alacritty</execute>
 			</action>
 		</item>
 		<item label="Chrome">
@@ -29,11 +29,6 @@
 			</item>
 		</menu>
 		<separator/>
-		<item label="Eekboard">
-			<action name="Execute">
-				<execute>eekboard</execute>
-			</action>
-		</item>
 		<item label="File Manager">
 			<action name="Execute">
 				<execute>thunar</execute>
@@ -60,6 +55,11 @@
 			</action>
 		</item>
 		<menu id="root-menu-64156" label="On Screen">
+			<item label="Eekboard">
+				<action name="Execute">
+					<execute>eekboard</execute>
+				</action>
+			</item>
 			<item label="Clip">
 				<action name="Execute">
 					<execute>flameshot gui</execute>
@@ -137,21 +137,6 @@
 			<item label="Alacritty">
 				<action name="Execute">
 					<execute>alacritty</execute>
-				</action>
-			</item>
-			<item label="Termite">
-				<action name="Execute">
-					<execute>termite</execute>
-				</action>
-			</item>
-			<item label="UXTerm">
-				<action name="Execute">
-					<execute>uxterm</execute>
-				</action>
-			</item>
-			<item label="Xterm">
-				<action name="Execute">
-					<execute>xterm</execute>
 				</action>
 			</item>
 		</menu>

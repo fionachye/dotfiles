@@ -321,16 +321,16 @@
           <enabled>true</enabled>
           <name>Terminal</name>
         </startupnotify>
-        <command>gnome-terminal --geometry=100x40</command>
+        <command>alacritty</command>
       </action>
    </keybind>
     <keybind key="C-A-p">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Alacritty Terminal</name>
+          <name>Gnome Terminal</name>
         </startupnotify>
-        <command>alacritty</command>
+        <command>gnome-terminal --geometry=100x40</command>
       </action>
   </keybind>
     <keybind key="C-S-F5">
