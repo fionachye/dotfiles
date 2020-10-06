@@ -1,4 +1,5 @@
 autokey
+eekboard
 gconf
 google-chrome
 obmenu

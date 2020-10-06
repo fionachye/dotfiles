@@ -23,6 +23,7 @@ evince
 fakeroot
 fd
 firefox
+flameshot
 flatpak
 flex
 fuse2
@@ -31,7 +32,6 @@ gcc
 gimp
 git
 gnome-backgrounds
-gnome-screenshot
 gnome-terminal
 grub
 grub-customizer
