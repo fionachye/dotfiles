@@ -323,7 +323,25 @@
         </startupnotify>
         <command>gnome-terminal --geometry=100x40</command>
       </action>
-    </keybind>
+   </keybind>
+    <keybind key="C-A-p">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Alacritty Terminal</name>
+        </startupnotify>
+        <command>alacritty</command>
+      </action>
+  </keybind>
+    <keybind key="C-S-F5">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Clip</name>
+        </startupnotify>
+        <command>flameshot gui</command>
+      </action>
+  </keybind>
     <keybind key="C-A-b">
       <action name="Execute">
         <startupnotify>
