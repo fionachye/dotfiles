@@ -70,7 +70,9 @@ lightdm
 lightdm-gtk-greeter
 linux
 linux-firmware
+linux-headers
 linux-lts
+linux-lts-headers
 luajit
 lutris
 lxqt-policykit
@@ -127,6 +129,7 @@ rclone
 read-edid
 redis
 ripgrep
+sqlitebrowser
 steam
 streamlink
 sudo
