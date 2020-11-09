@@ -72,12 +72,12 @@ call plug#end()
 " | General Settings |
 " ====================
 filetype plugin on  " Enable file type based settings, e.g .vim/ftplugin/python.vim
-set autoindent showmode showmatch smartindent
+set autoindent showmode showmatch smartindent autochdir
 set tabstop=4 shiftwidth=4 expandtab softtabstop=4
 syntax on
 set nobackup nowritebackup
-set nowrapscan  " Do not wrap around when search reaches EOF
 set ignorecase
+set nowrapscan  " Do not wrap around when search reaches EOF
 set number
 set noswapfile
 set hidden
@@ -104,6 +104,7 @@ set bg=dark
 " | Macros |
 " ==========
 let @p = "Iimport pdb; pdb.set_trace()^"
+let @o = "Ifrom celery.contrib import rdb; rdb.set_trace()^"
 
 "===========
 "| Keymaps |
@@ -158,3 +159,7 @@ let g:airline_theme='molokai'
 " Coc Intellisense
 nmap gd <Plug>(coc-definition)
 nmap gr <Plug>(coc-references)
+let g:coc_disable_startup_warning = 1
+
+" Vim Wiki
+let g:vimwiki_url_maxsave=0  " Remove concealing urls (url shortening)
