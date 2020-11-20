@@ -26,6 +26,7 @@ Plug 'rakr/vim-one'
 Plug 'arzg/vim-colors-xcode'
 Plug 'lifepillar/vim-solarized8'
 Plug 'skbolton/embark'
+Plug 'arcticicestudio/nord-vim'
 
 " Display status
 Plug 'bling/vim-airline'
@@ -163,3 +164,10 @@ let g:coc_disable_startup_warning = 1
 
 " Vim Wiki
 let g:vimwiki_url_maxsave=0  " Remove concealing urls (url shortening)
+let g:vimwiki_list = [{'path': '~/wiki/', 'path_html': '~/wiki/html/'},
+                    \ {'path': '~/vimwiki/', 'path_html': '~/vimwiki/html'}]
+
+" netrw
+let g:netrw_banner = 0  " Remove the banner
+let g:netrw_browse_split = 2  " Open files in vertical split
+let g:netrw_liststyle = 3  " Tree style listing
