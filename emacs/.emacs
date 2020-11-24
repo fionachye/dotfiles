@@ -1,5 +1,8 @@
-;; Change to your .emacs.d/ directory accordingly
-(setq user-emacs-directory "/home/fiona/.emacs.d")
+;; For emacs version older than 26.3
+;; (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.2")
+
+;; Change .emacs.d/ directory accordingly
+(setq user-emacs-directory "/home/fionac/.emacs.d")
 
 ;; Treat all themes as safe
 (setq custom-safe-themes t)
@@ -15,7 +18,6 @@
 ;; Disable automatic backups
 (setq make-backup-files nil)
 
-(setq-default show-trailing-whitespace t)
 
 (package-initialize)
 (require 'package)
@@ -60,6 +62,8 @@
  ;; If there is more than one, they won't work right.
  '(trailing-whitespace ((t (:background "dark red" :foreground "white")))))
 
+;; Themes
+;; Nord theme
 (add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.d/themes/"))
 (use-package nord-theme
    :config
@@ -67,6 +71,7 @@
    :ensure t)
 
 (global-hl-line-mode t) ;; This highlights the current line in the buffer
+(setq-default show-trailing-whitespace t)
 
 (use-package beacon ;; This applies a beacon effect to the highlighted line
    :ensure t
@@ -77,10 +82,9 @@
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1))))
-
 (setq org-startup-indented t)           ;; Indent according to section
 (setq org-startup-with-inline-images t) ;; Display images in-buffer by default
 
-
+;; Evil key mappings
 (define-key evil-motion-state-map (kbd ":") 'evil-ex)
 (define-key evil-motion-state-map (kbd ";") 'evil-ex)
