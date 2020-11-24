@@ -94,6 +94,12 @@ set incsearch
 set smartcase
 set cursorline
 
+" =====================
+" | Fuzzy file finder |
+" =====================
+set path+=**
+set wildignore+=**/node_modules/**
+
 " ==============
 " | Appearance |
 " ==============
@@ -164,8 +170,9 @@ let g:coc_disable_startup_warning = 1
 
 " Vim Wiki
 let g:vimwiki_url_maxsave=0  " Remove concealing urls (url shortening)
-let g:vimwiki_list = [{'path': '~/wiki/', 'path_html': '~/wiki/html/'},
-                    \ {'path': '~/vimwiki/', 'path_html': '~/vimwiki/html'}]
+let g:vimwiki_list = [
+    \ {'path': '~/wiki/', 'path_html': '~/wiki/html/'},
+    \ {'path': '~/vimwiki/', 'path_html': '~/vimwiki/html'}]
 
 " netrw
 let g:netrw_banner = 0  " Remove the banner
