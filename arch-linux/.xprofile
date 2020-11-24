@@ -1,3 +1,6 @@
-xinput set-prop 12 'libinput Accel Speed' -0.9
-xsetwacom --set "8" MapToOutput HEAD-0
-xsetwacom --set "9" MapToOutput HEAD-0
+xinput set-prop 10 'libinput Accel Speed' -0.9
+xsetwacom --set "21" MapToOutput HEAD-0
+xsetwacom --set "22" MapToOutput HEAD-0
+
+# Disable PC speaker
+xset -b
