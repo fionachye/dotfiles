@@ -1,5 +1,5 @@
 ;; For emacs version older than 26.3
-;; (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.2")
+;; (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Change .emacs.d/ directory accordingly
 (setq user-emacs-directory "/home/fionac/.emacs.d")
