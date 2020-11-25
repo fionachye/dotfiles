@@ -2,7 +2,7 @@
 ;; (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Change .emacs.d/ directory accordingly
-(setq user-emacs-directory "/home/fionac/.emacs.d")
+(setq user-emacs-directory "/home/fiona/.emacs.d")
 
 ;; Treat all themes as safe
 (setq custom-safe-themes t)
@@ -15,9 +15,9 @@
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 
-;; Disable automatic backups
+;; Disable automatic backups and autosaves
 (setq make-backup-files nil)
-
+(setq auto-save-default nil)
 
 (package-initialize)
 (require 'package)

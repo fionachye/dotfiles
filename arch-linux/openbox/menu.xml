@@ -28,7 +28,12 @@
 				</action>
 			</item>
 		</menu>
-		<separator/>
+        <separator/>
+        <item label="Emacs">
+			<action name="Execute">
+				<execute>emacs -mm</execute>
+			</action>
+		</item>
 		<item label="File Manager">
 			<action name="Execute">
 				<execute>thunar</execute>
@@ -79,7 +84,7 @@
 			</item>
 			<item label="Chatty">
 				<action name="Execute">
-					<execute>java -jar ~/Streaming/chatty/chatty.jar</execute>
+					<execute>java -jar ~/Streaming/chatty/Chatty.jar</execute>
 				</action>
 			</item>
 		</menu>
