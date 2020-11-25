@@ -16,8 +16,10 @@ bleachbit
 catimg
 cmake
 cronie
+ctags
 discord
 efibootmgr
+emacs
 eog
 evince
 fakeroot
