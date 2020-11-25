@@ -19,6 +19,9 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 
+;; Echo keystrokes after 0.1 seconds
+(setq echo-keystrokes 0.1)
+
 (package-initialize)
 (require 'package)
 
