@@ -113,6 +113,11 @@ set bg=dark
 let @p = "Iimport pdb; pdb.set_trace()^"
 let @o = "Ifrom celery.contrib import rdb; rdb.set_trace()^"
 
+" ==================
+" | Linux Commands |
+" ==================
+command! Fjson %!python -m json.tool  " format json using commands
+
 "===========
 "| Keymaps |
 "===========
