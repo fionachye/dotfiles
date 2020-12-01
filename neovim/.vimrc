@@ -116,7 +116,7 @@ let @o = "Ifrom celery.contrib import rdb; rdb.set_trace()^"
 " ==================
 " | Linux Commands |
 " ==================
-command! Fjson %!python -m json.tool  " format json using commands
+command! FormatJSON %!python -m json.tool
 
 "===========
 "| Keymaps |
