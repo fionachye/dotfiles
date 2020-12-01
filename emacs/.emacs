@@ -3,6 +3,7 @@
 
 ;; Change .emacs.d/ directory accordingly
 (setq user-emacs-directory "/home/fiona/.emacs.d")
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Treat all themes as safe
 (setq custom-safe-themes t)
