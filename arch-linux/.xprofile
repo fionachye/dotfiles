@@ -4,3 +4,6 @@ xsetwacom --set "22" MapToOutput HEAD-0
 
 # Disable PC speaker
 xset -b
+
+# Make Caps Lock a Control key
+setxkbmap -option ctrl:nocaps
