@@ -2,7 +2,7 @@
 ;; (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 ;; Set default directory
-(setq default-directory "/home/fiona/org-wiki")
+(setq default-directory "/home/fiona/org-notes")
 
 ;; Change .emacs.d/ directory accordingly
 (setq user-emacs-directory "/home/fiona/.emacs.d")
@@ -26,7 +26,6 @@
 ;; Echo keystrokes after 0.1 seconds
 (setq echo-keystrokes 0.1)
 
-(package-initialize)
 (require 'package)
 
 (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
@@ -42,6 +41,11 @@
   :ensure t
   :config
   (evil-mode 1))
+(use-package undo-fu
+  :ensure t
+  :config
+  (define-key evil-normal-state-map "u" 'undo-fu-only-undo)
+  (define-key evil-normal-state-map "\C-r" 'undo-fu-only-redo))
 (use-package powerline-evil
   :ensure t)
 (powerline-evil-vim-theme)
@@ -96,3 +100,5 @@
 ;; Evil key mappings
 (define-key evil-motion-state-map (kbd ":") 'evil-ex)
 (define-key evil-motion-state-map (kbd ";") 'evil-ex)
+
+(provide 'init-local)
