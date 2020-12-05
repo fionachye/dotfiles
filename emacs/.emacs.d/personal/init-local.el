@@ -46,6 +46,7 @@
   :config
   (define-key evil-normal-state-map "u" 'undo-fu-only-undo)
   (define-key evil-normal-state-map "\C-r" 'undo-fu-only-redo))
+
 (use-package powerline-evil
   :ensure t)
 (powerline-evil-vim-theme)
@@ -55,13 +56,13 @@
 (setq key-chord-two-keys-delay 0.1)
 (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
 (key-chord-mode 1)
+
 ;; Themes
 ;; Nord theme
-(add-to-list 'custom-theme-load-path (expand-file-name "~/.emacs.d/themes/"))
 (use-package nord-theme
    :config
-   (load-theme 'nord)
    :ensure t)
+
 (use-package beacon ;; This applies a beacon effect to the highlighted line
    :ensure t
    :config
@@ -71,22 +72,6 @@
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1))))
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(evil-undo-system 'undo-redo)
- '(package-selected-packages '(org-superstar powerline-evil beacon use-package)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(trailing-whitespace ((t (:background "dark red" :foreground "white")))))
-
 
 ;; Org Mode Settings
 (setq org-startup-indented t)           ;; Indent according to section
@@ -100,5 +85,3 @@
 ;; Evil key mappings
 (define-key evil-motion-state-map (kbd ":") 'evil-ex)
 (define-key evil-motion-state-map (kbd ";") 'evil-ex)
-
-(provide 'init-local)
