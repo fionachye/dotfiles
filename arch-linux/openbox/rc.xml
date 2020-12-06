@@ -282,7 +282,7 @@
         </finalactions>
       </action>
     </keybind>
-    <keybind key="C-A-Tab">
+    <!--<keybind key="C-A-Tab">
       <action name="NextWindow">
         <panels>yes</panels>
         <desktop>yes</desktop>
@@ -292,7 +292,7 @@
           <action name="Unshade"/>
         </finalactions>
       </action>
-    </keybind>
+    </keybind>-->
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
@@ -328,9 +328,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Gnome Terminal</name>
+          <name>Peek</name>
         </startupnotify>
-        <command>gnome-terminal --geometry=100x40</command>
+        <command>peek</command>
       </action>
   </keybind>
     <keybind key="C-S-F5">
@@ -360,13 +360,13 @@
         <command>thunderbird</command>
       </action>
     </keybind>
-    <keybind key="C-A-v">
+    <keybind key="C-A-j">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Neovim</name>
+          <name>Emacs</name>
         </startupnotify>
-        <command>gnome-terminal --maximize -e nvim</command>
+        <command>emacs -mm</command>
       </action>
     </keybind>
   </keyboard>
@@ -393,14 +393,14 @@
       <mousebind button="A-Left" action="Drag">
         <action name="Move"/>
       </mousebind>
-      <mousebind button="A-Right" action="Press">
+      <!--<mousebind button="A-Right" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
         <action name="Unshade"/>
       </mousebind>
       <mousebind button="A-Right" action="Drag">
         <action name="Resize"/>
-      </mousebind>
+      </mousebind> -->
       <mousebind button="A-Middle" action="Press">
         <action name="Lower"/>
         <action name="FocusToBottom"/>
@@ -649,7 +649,7 @@
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
+      <!--<mousebind button="C-A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -658,7 +658,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind>-->
       <mousebind button="Left" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
