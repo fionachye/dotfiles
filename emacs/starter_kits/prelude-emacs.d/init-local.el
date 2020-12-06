@@ -77,6 +77,11 @@
 (setq org-startup-indented t)           ;; Indent according to section
 (setq org-startup-with-inline-images t) ;; Display images in-buffer by default
 (setq org-hide-emphasis-markers t)      ;; Hide emphasis markers, like asterisks besides a bolded font
+(org-babel-do-load-languages            ;; Enable these languages for org-babel
+  'org-babel-load-languages
+  '((python . t)
+    (js . t)))
+(setq org-download-image-dir "./screenshots")  ;; Location of screen clips relative to current file
 
 ;; Basic Editor Settings
 (setq-default show-trailing-whitespace t)
