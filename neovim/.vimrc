@@ -139,8 +139,8 @@ nnoremap <C-p> :FZF<Space>/home/fiona/python/<CR>
 nnoremap <C-p>. :FZF<Space>.<CR>
 
 " For cycling buffers
-nnoremap <C-Left> :bprev<CR>
-nnoremap <C-Right> :bnext<CR>
+nnoremap <C-q> :bprev<CR>
+nnoremap <C-e> :bnext<CR>
 
 " Delete buffer without losing split
 nnoremap <silent> <Leader>w :bp \| :bd #<CR>
