@@ -1,5 +1,7 @@
 ;; From https://ivanaf.com/animating_gifs_in_orgmode.html
 ;; https://github.com/Fuco1/org-inline-image/blob/master/org-inline-image.el
+(require 'dash)
+
 (defun org-inline-image--get-current-image ()
   "Return the overlay associated with the image under point."
   (car (--select (eq (overlay-get it 'org-image-overlay) t) (overlays-at (point)))))
