@@ -19,6 +19,9 @@
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 
+;; Display line number
+(global-display-line-numbers-mode)
+
 ;; Disable automatic backups and autosaves
 (setq make-backup-files nil)
 (setq auto-save-default nil)
