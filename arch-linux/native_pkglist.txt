@@ -5,7 +5,6 @@ adobe-source-han-sans-tw-fonts
 alacritty
 alsa-plugins
 alsa-utils
-audacity
 autoconf
 automake
 awesome
@@ -115,7 +114,6 @@ pavucontrol
 pcmanfm
 peek
 pkgconf
-playonlinux
 powerline
 powerline-fonts
 pulseaudio

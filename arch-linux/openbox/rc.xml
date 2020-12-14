@@ -177,7 +177,8 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-    <!-- Keybindings for desktop switching -->
+        <!-- Keybindings for desktop switching -->
+    <!--
     <keybind key="C-A-Left">
       <action name="GoToDesktop">
         <to>left</to>
@@ -201,7 +202,8 @@
         <to>down</to>
         <wrap>no</wrap>
       </action>
-    </keybind>
+    </keybind>-->
+  <!--
     <keybind key="S-A-Left">
       <action name="SendToDesktop">
         <to>left</to>
@@ -245,7 +247,8 @@
       <action name="GoToDesktop">
         <to>4</to>
       </action>
-    </keybind>
+      </keybind>
+  -->
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -272,7 +275,7 @@
           <action name="Unshade"/>
         </finalactions>
       </action>
-    </keybind>
+  </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
         <finalactions>
@@ -281,7 +284,7 @@
           <action name="Unshade"/>
         </finalactions>
       </action>
-    </keybind>
+      </keybind>
     <!--<keybind key="C-A-Tab">
       <action name="NextWindow">
         <panels>yes</panels>
@@ -366,7 +369,7 @@
           <enabled>true</enabled>
           <name>Emacs</name>
         </startupnotify>
-        <command>emacs -mm</command>
+        <command>emacs -mm --debug-init</command>
       </action>
     </keybind>
   </keyboard>
@@ -405,7 +408,8 @@
         <action name="Lower"/>
         <action name="FocusToBottom"/>
         <action name="Unfocus"/>
-      </mousebind>
+    </mousebind>
+    <!--
       <mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -425,7 +429,9 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+        </mousebind>
+    -->
+    <!--
       <mousebind button="A-S-Up" action="Click">
         <action name="SendToDesktop">
           <to>previous</to>
@@ -435,7 +441,7 @@
         <action name="SendToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+    </mousebind>-->
     </context>
     <context name="Titlebar">
       <mousebind button="Left" action="Drag">
@@ -629,6 +635,7 @@
       </mousebind>
     </context>
     <context name="Desktop">
+        <!--
       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -648,7 +655,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+        </mousebind> -->
       <!--<mousebind button="C-A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -682,6 +689,7 @@
       </mousebind>
     </context>
     <context name="MoveResize">
+        <!--
       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -701,7 +709,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+        </mousebind>-->
     </context>
   </mouse>
   <menu>

@@ -7,3 +7,6 @@ numlockx &
 discord &
 steam &
 insync start &
+
+xournalpp ~/org-notes/emacs/mastering_emacs_by_mickey_peterson/mastering-emacs-v3.pdf -n 70 &
+emacs -mm ~/org-notes/emacs/tutorial.org &
