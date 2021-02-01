@@ -19,6 +19,10 @@ Plug 'junegunn/fzf.vim'
 " Linter
 Plug 'dense-analysis/ale'
 
+" Syntax highlighting
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+
 " Color schemes
 Plug 'morhetz/gruvbox'
 Plug 'NLKNguyen/papercolor-theme'
