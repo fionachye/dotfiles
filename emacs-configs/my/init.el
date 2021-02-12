@@ -40,6 +40,8 @@
 
 (use-package org
   :ensure t)
+(use-package plantuml-mode
+  :ensure t)
 (use-package dash  ;; Required by org-inline-image-animate
   :ensure t)
 (use-package async ;; Required by org-image-download
@@ -89,12 +91,19 @@
 (setq org-startup-indented t)           ;; Indent according to section
 (setq org-startup-with-inline-images t) ;; Display images in-buffer by default
 (setq org-hide-emphasis-markers t)      ;; Hide emphasis markers, like asterisks besides a bolded font
+(setq org-plantuml-jar-path (expand-file-name "~/.emacs.d/plantuml.jar"))  ;; Location of plantuml jar file
 (org-babel-do-load-languages            ;; Enable these languages for org-babel
   'org-babel-load-languages
   '((python . t)
-    (js . t)))
+    (js . t)
+    (plantuml . t)
+    ))
 (customize-set-variable 'org-download-image-dir "screenshots")  ;; Location of screen clips relative to current file
 (customize-set-variable 'org-download-heading-lvl nil)  ;; Location of screen clips relative to current file
+
+;; plantuml major mode settings
+(setq plantuml-jar-path (expand-file-name "~/.emacs.d/plantuml.jar"))  ; Location of jar file for plantuml mode, this is different from the org mode one
+(setq plantuml-default-exec-mode 'jar)
 
 ;; Evil key mappings
 (define-key evil-motion-state-map (kbd ":") 'evil-ex)
