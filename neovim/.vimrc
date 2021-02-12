@@ -58,7 +58,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 " Requires most recent version of nvim
 " Run :checkhealth and check what's missing
 " Then do the following:
-" :CocInstall coc-python
+" :CocInstall coc-pyright
 " :CocInstall coc-json
 " :CocInstall coc-tsserver
 " :CocInstall coc-sh
