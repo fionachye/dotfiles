@@ -7,12 +7,12 @@ alsa-plugins
 alsa-utils
 autoconf
 automake
-awesome
 base
 binutils
 bison
 bleachbit
 catimg
+chromium
 cmake
 cronie
 ctags
@@ -38,7 +38,6 @@ grub
 grub-customizer
 gvfs
 htop
-i3-wm
 iftop
 jre-openjdk
 jupyterlab
