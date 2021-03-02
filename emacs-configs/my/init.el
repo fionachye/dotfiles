@@ -67,9 +67,12 @@
   (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
   (key-chord-mode 1))
 (use-package nord-theme
+   :ensure t)
+(use-package doom-themes
    :ensure t
    :config
-   (load-theme 'nord t))
+   (load-theme 'doom-old-hope t)
+)
 (use-package beacon ;; This applies a beacon effect to the highlighted line
    :ensure t
    :config
