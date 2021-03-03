@@ -10,8 +10,14 @@
 (setq custom-file (expand-file-name "~/.emacs.d/custom.el"))
 (load custom-file)
 
+;; Set path for custom themes
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
 ;; Treat all themes as safe
 (setq custom-safe-themes t)
+
+;; Load theme
+(load-theme 'nord t)
 
 ;; Remove splash screen and unnecessary menus
 (setq inhibit-splash-screen t)
@@ -66,13 +72,6 @@
   (setq key-chord-two-keys-delay 0.1)
   (key-chord-define evil-insert-state-map  "jk" 'evil-normal-state)
   (key-chord-mode 1))
-(use-package nord-theme
-   :ensure t)
-(use-package doom-themes
-   :ensure t
-   :config
-   (load-theme 'doom-old-hope t)
-)
 (use-package beacon ;; This applies a beacon effect to the highlighted line
    :ensure t
    :config
