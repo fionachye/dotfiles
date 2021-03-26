@@ -4,6 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(fido-mode t)
+ '(global-visual-line-mode t)
  '(org-download-heading-lvl nil)
  '(org-download-image-dir "screenshots")
  '(org-link-search-must-match-exact-headline nil)

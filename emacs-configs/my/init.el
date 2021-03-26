@@ -25,8 +25,9 @@
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
 
-;; Display line number
+;; Display line and column number
 (global-display-line-numbers-mode)
+(column-number-mode 1)
 
 ;; Disable automatic backups and autosaves
 (setq make-backup-files nil)
