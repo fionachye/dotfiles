@@ -86,6 +86,12 @@
 (load "~/.emacs.d/lisp/org-download")
 (load "~/.emacs.d/lisp/org-inline-image")
 
+;; Common Lisp Environment
+(setq inferior-lisp-program "/usr/bin/sbcl")
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/slime/")
+(require 'slime)
+(slime-setup '(slime-fancy))
+
 ;; Basic Editor Settings
 (setq-default show-trailing-whitespace t)
 (global-hl-line-mode t) ;; This highlights the current line in the buffer
@@ -100,6 +106,7 @@
   '((python . t)
     (js . t)
     (plantuml . t)
+    (lisp . t)
     ))
 (customize-set-variable 'org-download-image-dir "screenshots")  ;; Location of screen clips relative to current file
 (customize-set-variable 'org-download-heading-lvl nil)  ;; Location of screen clips relative to current file
