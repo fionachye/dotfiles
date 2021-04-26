@@ -1,9 +1,7 @@
-eekboard
 gconf
-obmenu
-obs-linuxbrowser-bin
-p3x-onenote
+google-chrome
+obs-studio-browser
 pygtk
 spotify
 timeshift
-tusk
+yay

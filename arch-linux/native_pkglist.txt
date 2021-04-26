@@ -11,6 +11,7 @@ base
 binutils
 bison
 bleachbit
+blender
 catimg
 chromium
 cmake
@@ -41,6 +42,7 @@ htop
 iftop
 jre-openjdk
 jupyterlab
+ledger
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
@@ -65,6 +67,7 @@ lib32-sqlite
 lib32-v4l-utils
 lib32-vulkan-icd-loader
 libfdk-aac
+libreoffice-still
 libtool
 lightdm
 lightdm-gtk-greeter
@@ -101,7 +104,6 @@ nvidia-lts
 nvidia-settings
 nvidia-utils
 obconf
-obs-studio
 ocl-icd
 openal
 openbox
