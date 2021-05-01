@@ -109,9 +109,10 @@
     (lisp . t)
     ))
 (customize-set-variable 'org-download-image-dir "screenshots")  ;; Location of screen clips relative to current file
-(customize-set-variable 'org-download-heading-lvl nil)  ;; Location of screen clips relative to current file
+(customize-set-variable 'org-download-heading-lvl nil)
 
 ;; plantuml major mode settings
+;; To download the latest jar, do M-x plantuml-download-jar
 (setq plantuml-jar-path (expand-file-name "~/.emacs.d/plantuml.jar"))  ; Location of jar file for plantuml mode, this is different from the org mode one
 (setq plantuml-default-exec-mode 'jar)
 
