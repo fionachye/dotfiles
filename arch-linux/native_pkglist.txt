@@ -130,6 +130,7 @@ rclone
 read-edid
 redis
 ripgrep
+sbcl
 sqlitebrowser
 steam
 streamlink
@@ -161,6 +162,7 @@ xclip
 xf86-input-wacom
 xorg-server
 xorg-server-xephyr
+xorg-xev
 xorg-xinput
 xorg-xrandr
 xorg-xset

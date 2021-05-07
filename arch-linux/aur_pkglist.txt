@@ -1,7 +1,9 @@
+brave-bin
 gconf
 google-chrome
 obs-studio-browser
 pygtk
+slime-git
 spotify
 timeshift
 yay
