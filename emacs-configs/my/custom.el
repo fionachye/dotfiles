@@ -8,13 +8,13 @@
  '(org-download-heading-lvl nil)
  '(org-download-image-dir "screenshots")
  '(org-emphasis-alist
-   '(("*" (bold :foreground "yellow1"))
+   '(("*" (bold :foreground "LightSalmon1"))
      ("/" italic)
      ("_" underline)
      ("=" org-verbatim verbatim)
      ("~" (:foreground "YellowGreen" org-code verbatim))
      ("+"
-      (:foreground "dark salmon" :background "navajo white"))))
+      (:foreground "white" :background "aquamarine4"))))
  '(org-link-search-must-match-exact-headline nil)
  '(package-selected-packages
    '(plantuml-mode org-superstar beacon key-chord powerline-evil undo-fu evil async dash org use-package))
