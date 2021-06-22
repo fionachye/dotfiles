@@ -5,17 +5,21 @@
  ;; If there is more than one, they won't work right.
  '(fido-mode t)
  '(global-visual-line-mode t)
+ '(org-agenda-files nil)
  '(org-download-heading-lvl nil)
  '(org-download-image-dir "screenshots")
  '(org-emphasis-alist
-   '(("*" (bold :foreground "LightSalmon1"))
+   '(("*"
+      (bold :foreground "PeachPuff"))
      ("/" italic)
      ("_" underline)
      ("=" org-verbatim verbatim)
-     ("~" (:foreground "YellowGreen" org-code verbatim))
+     ("~"
+      (verbatim :foreground "DarkGreen" org-code))
      ("+"
-      (:foreground "white" :background "aquamarine4"))))
+      (:foreground "white" :background "maroon4"))))
  '(org-link-search-must-match-exact-headline nil)
+ '(org-preview-latex-image-directory "/tmp/")
  '(package-selected-packages
    '(plantuml-mode org-superstar beacon key-chord powerline-evil undo-fu evil async dash org use-package))
  '(show-paren-mode t))

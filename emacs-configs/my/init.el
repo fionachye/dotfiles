@@ -17,7 +17,7 @@
 (setq custom-safe-themes t)
 
 ;; Load theme
-(load-theme 'nord t)
+(load-theme 'flatland t)
 
 ;; Remove splash screen and unnecessary menus
 (setq inhibit-splash-screen t)
@@ -107,6 +107,7 @@
     (js . t)
     (plantuml . t)
     (lisp . t)
+    (latex . t)
     ))
 (customize-set-variable 'org-download-image-dir "screenshots")  ;; Location of screen clips relative to current file
 (customize-set-variable 'org-download-heading-lvl nil)
