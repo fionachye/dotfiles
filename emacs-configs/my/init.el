@@ -17,7 +17,7 @@
 (setq custom-safe-themes t)
 
 ;; Load theme
-(load-theme 'flatland t)
+(load-theme 'cyberpunk t)
 
 ;; Remove splash screen and unnecessary menus
 (setq inhibit-splash-screen t)
