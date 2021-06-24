@@ -92,6 +92,9 @@
 (require 'slime)
 (slime-setup '(slime-fancy))
 
+;; Load the Markdown back-end (Required for markdown exports)
+(require 'ox-md)
+
 ;; Basic Editor Settings
 (setq-default show-trailing-whitespace t)
 (global-hl-line-mode t) ;; This highlights the current line in the buffer

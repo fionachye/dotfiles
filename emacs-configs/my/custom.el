@@ -18,6 +18,7 @@
       (verbatim :foreground "DarkGreen" org-code))
      ("+"
       (:foreground "white" :background "maroon4"))))
+ '(org-export-with-sub-superscripts '{})
  '(org-link-search-must-match-exact-headline nil)
  '(org-preview-latex-image-directory "/tmp/")
  '(package-selected-packages
