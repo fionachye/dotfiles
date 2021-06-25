@@ -23,7 +23,7 @@
  '(org-link-search-must-match-exact-headline nil)
  '(org-preview-latex-image-directory "/tmp/")
  '(package-selected-packages
-   '(plantuml-mode org-superstar beacon key-chord powerline-evil undo-fu evil async dash org use-package))
+   '(mermaid-mode plantuml-mode org-superstar beacon key-chord powerline-evil undo-fu evil async dash org use-package))
  '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -53,6 +53,8 @@
   :ensure t)
 (use-package plantuml-mode
   :ensure t)
+(use-package mermaid-mode
+  :ensure t)
 (use-package dash  ;; Required by org-inline-image-animate
   :ensure t)
 (use-package async ;; Required by org-image-download
@@ -89,6 +91,7 @@
 ;; Load lisp files
 (load "~/.emacs.d/lisp/org-download")
 (load "~/.emacs.d/lisp/org-inline-image")
+(load "~/.emacs.d/lisp/ob-mermaid")  ;; For rendering mermaid graphs using org-babel
 
 ;; Common Lisp Environment
 (setq inferior-lisp-program "/usr/bin/sbcl")
@@ -108,6 +111,7 @@
 (setq org-startup-with-inline-images t) ;; Display images in-buffer by default
 (setq org-hide-emphasis-markers t)      ;; Hide emphasis markers, like asterisks besides a bolded font
 (setq org-plantuml-jar-path (expand-file-name "~/.emacs.d/plantuml.jar"))  ;; Location of plantuml jar file
+(setq ob-mermaid-cli-path (expand-file-name "~/.emacs.d/node_modules/.bin/mmdc")) ;; Path to mermaid-cli (for org-mode)
 (org-babel-do-load-languages            ;; Enable these languages for org-babel
   'org-babel-load-languages
   '((python . t)
@@ -115,6 +119,7 @@
     (plantuml . t)
     (lisp . t)
     (latex . t)
+    (mermaid . t)
     ))
 (customize-set-variable 'org-download-image-dir "screenshots")  ;; Location of screen clips relative to current file
 (customize-set-variable 'org-download-heading-lvl nil)
@@ -123,6 +128,9 @@
 ;; To download the latest jar, do M-x plantuml-download-jar
 (setq plantuml-jar-path (expand-file-name "~/.emacs.d/plantuml.jar"))  ; Location of jar file for plantuml mode, this is different from the org mode one
 (setq plantuml-default-exec-mode 'jar)
+
+;; mermaid major mode settings
+(setq mermaid-mmdc-location (expand-file-name "~/.emacs.d/node_modules/.bin/mmdc")) ;; Location of mermaid-cli for mermaid mode, this is different from the org mode one
 
 ;; Evil key mappings
 (define-key evil-motion-state-map (kbd ":") 'evil-ex)
