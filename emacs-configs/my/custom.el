@@ -6,6 +6,7 @@
  '(fido-mode t)
  '(global-visual-line-mode t)
  '(org-agenda-files nil)
+ '(org-confirm-babel-evaluate nil)
  '(org-download-heading-lvl nil)
  '(org-download-image-dir "screenshots")
  '(org-emphasis-alist
