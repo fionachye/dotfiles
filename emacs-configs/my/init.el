@@ -19,6 +19,10 @@
 ;; Load theme
 (load-theme 'cyberpunk t)
 
+;; Set default font family and font size
+(add-to-list 'default-frame-alist '(font . "Noto Sans Mono-12" ))
+(set-face-attribute 'default t :font "Noto Sans Mono-12" )
+
 ;; Remove splash screen and unnecessary menus
 (setq inhibit-splash-screen t)
 (menu-bar-mode -1)
