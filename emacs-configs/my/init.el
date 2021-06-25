@@ -130,6 +130,8 @@
 (setq plantuml-default-exec-mode 'jar)
 
 ;; mermaid major mode settings
+;; to install the latest mermaid-cli, do `npm install @mermaid-js/mermaid-cli`
+;; The installed binary is located in the current directory, ./node_modules/.bin/mmdc
 (setq mermaid-mmdc-location (expand-file-name "~/.emacs.d/node_modules/.bin/mmdc")) ;; Location of mermaid-cli for mermaid mode, this is different from the org mode one
 
 ;; Evil key mappings
