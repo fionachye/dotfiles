@@ -22,6 +22,7 @@
  '(org-export-with-sub-superscripts '{})
  '(org-link-search-must-match-exact-headline nil)
  '(org-preview-latex-image-directory "/tmp/")
+ '(org-startup-with-latex-preview t)
  '(package-selected-packages
    '(mermaid-mode plantuml-mode org-superstar beacon key-chord powerline-evil undo-fu evil async dash org use-package))
  '(show-paren-mode t))
